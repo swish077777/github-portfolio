@@ -1,0 +1,206 @@
+:root {
+    --primary-blue: #164863;
+    --secondary-blue: #427D9D;
+    --light-blue: #9BBEC8;
+    --pale-blue: #DDF2FD;
+  }
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: var(--primary-blue) !important;
+    padding: 24px 50px 24px 24px;
+    
+}
+.nav-link {
+    color: var(--pale-blue) !important;
+    font-family: sans-serif;
+    padding-left: 40px !important;
+}
+
+.navbar-brand {
+    font-size: 40px;    
+    font-family: sans-serif;
+    font-weight: 900;
+    color: var(--pale-blue);  
+}
+ 
+/* nav ends */
+
+/* home begin */
+
+#hero-img4 {
+    max-width: 100%;
+}
+#hero-h1, #hero-h3, #hero-p {
+    font-family: sans-serif;
+}
+#CV {
+    color: white;
+    background-color: var(--primary-blue)
+}
+
+#LM {
+    background-color:white;
+    color:var(--secondary-blue)
+    border
+}
+
+/* home ends */
+
+/* works begin */
+
+.portfolio-h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.portfolio-h5 {
+    text-align: center;
+    font-family: sans-serif;
+    color: var(--secondary-blue);
+}
+#p-img1 {
+    max-width: 75%;
+    width: 400px;
+}
+#p-img2 {
+    max-width: 75%;
+    width: 400px;
+}
+#p-h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#p-p {
+    font-family: sans-serif;
+}
+#p2-link {
+    background-color: var(--primary-blue);
+    color: white;
+}
+#p1-link {
+   background-color: var(--primary-blue);
+   color: white;
+}
+
+/* works done */
+
+/* cert begin */
+
+#cert-h5 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    color: var(--secondary-blue);
+}
+#cert-h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* cert unfinished */
+
+/* services begin */
+    .service-h5 {
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 50px;
+        color: var(--secondary-blue);
+    }
+
+    .service-h1 {
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .card {
+        background-color: var(--primary-blue);
+        color: var(--pale-blue);
+    }
+
+    #code-icon, #ballpen-icon, #shield-icon {
+        font-size: 40px;
+        color: white;
+    }
+
+    #card-h5, #card-p {
+        margin: 20px;
+    }
+
+/* services finish */
+
+/* about starts */
+
+#about-h5 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    color: var(--secondary-blue);
+}
+
+#about-h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#p-about {
+    margin-top: 100px;  
+
+}
+
+#img-about {
+    max-width: 100% ;
+    width: 500px;
+}
+
+.ftr {  
+    background-color: var(--primary-blue);
+    color: var(--pale-blue);
+    font-family: sans-serif;
+}
+
+#fb-icon, #linkedin-icon {
+    color: var(--pale-blue);
+}
+
+/* ol goods */
+
+@media only screen and (max-width: 414px) {
+
+    .nav-link {
+        text-align: center;
+    }
+
+
+    .navbar-toggler {
+        background-color: var(--light-blue)
+    }
+    
+    * {
+        margin-right: 0% !important;
+    }
+
+
+    /* service */
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .text-right {
+        text-align: center !important;
+    }
+
+
+
+
+    /* foorter */
+    #p-about {
+        margin-top: 0;
+        text-align: center;
+    } 
+    
+  }
