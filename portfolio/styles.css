@@ -165,3 +165,42 @@ body {
 #fb-icon, #linkedin-icon {
     color: var(--pale-blue);
 }
+
+/* ol goods */
+
+@media only screen and (max-width: 414px) {
+
+    .nav-link {
+        text-align: center;
+    }
+
+
+    .navbar-toggler {
+        background-color: var(--light-blue)
+    }
+    
+    * {
+        margin-right: 0% !important;
+    }
+
+
+    /* service */
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .text-right {
+        text-align: center !important;
+    }
+
+
+
+
+    /* foorter */
+    #p-about {
+        margin-top: 0;
+        text-align: center;
+    } 
+    
+  }
