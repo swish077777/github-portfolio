@@ -43,3 +43,43 @@
               }
             });
           </script> */}
+
+
+//           <!-- <div id="carouselExampleSlidesOnly" class="carousel slide pointer-event mt-3" data-bs-ride="carousel">
+//           <div class="carousel-inner">
+//             <div class="carousel-item active">
+//               <img src="certficiates/Computer Hardware Basics.jpg" alt="" class="d-block mx-auto w-50">
+//             </div>
+//             <div class="carousel-item">
+//               <img src="certficiates/Google Data Analytics.jpg" alt="" class="d-block mx-auto w-50">
+//             </div>
+//             <div class="carousel-item">
+//               <img src="certficiates/Google IT Automation with Python SC.jpg" alt="" class="d-block mx-auto w-50">
+//           </div>
+//           <div class="carousel-item">
+//             <img src="certficiates/Google IT Support.jpg" alt="" class="d-block mx-auto w-50">
+//         </div>
+//         <div class="carousel-item">
+//           <img src="certficiates/Introduction to Cybersecurity.jpg" alt="" class="d-block mx-auto w-50">
+//       </div>
+//       <div class="carousel-item">
+//         <img src="certficiates/Introduction to IoT.jpg" alt="" class="d-block mx-auto w-50">
+//     </div>
+//     <div class="carousel-item">
+//       <img src="certficiates/Networking Basic.jpg" alt="" class="d-block mx-auto w-50">
+//   </div>
+//   <div class="carousel-item">
+//     <img src="certficiates/Operating Systems.jpg" alt="" class="d-block mx-auto w-50">
+// </div>
+//   </div>
+// </div> -->
+
+
+// <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+// <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+// <span class="visually-hidden">Previous</span>
+// </button>
+// <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+// <span class="carousel-control-next-icon" aria-hidden="true"></span>
+// <span class="visually-hidden">Next</span>
+// </button> -->
