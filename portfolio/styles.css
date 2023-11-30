@@ -240,6 +240,10 @@ body {
     .navbar-toggler {
         background-color: var(--light-blue)
     }
+
+    #hero-h3, #hero-h1, #hero-p {
+        text-align: center;
+    }
     
 
 
