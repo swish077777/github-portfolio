@@ -4,6 +4,14 @@
     --light-blue: #9BBEC8;
     --pale-blue: #DDF2FD;
   }
+
+  /* * {
+    border: solid red 1px;
+  } */
+
+  #logo {
+    color: var(--secondary-blue);
+  }
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +25,7 @@ body {
     color: var(--pale-blue) !important;
     font-family: sans-serif;
     padding-left: 40px !important;
+    font-weight: 600;
 }
 
 .navbar-brand {
@@ -33,18 +42,31 @@ body {
 #hero-img4 {
     max-width: 100%;
 }
+
+#hero-h1 {
+    font-weight: 900;
+}
+
+#hero-h3 {
+    font-weight: 700;
+}
 #hero-h1, #hero-h3, #hero-p {
     font-family: sans-serif;
 }
+
+#HM {
+    color: white;
+    background-color: var(--primary-blue);
+
+}
 #CV {
     color: white;
-    background-color: var(--primary-blue)
+    background-color: var(--primary-blue);
 }
 
 #LM {
     background-color:white;
-    color:var(--secondary-blue)
-    border
+    color:var(--primary-blue);
 }
 
 /* home ends */
@@ -54,6 +76,7 @@ body {
 .portfolio-h1 {
     text-align: center;
     font-family: sans-serif;
+    font-weight: 700;
 }
 
 .portfolio-h5 {
@@ -99,6 +122,7 @@ body {
 #cert-h1 {
     text-align: center;
     font-family: sans-serif;
+    font-weight: 700;
 }
 
 /* cert unfinished */
@@ -114,6 +138,7 @@ body {
     .service-h1 {
         text-align: center;
         font-family: sans-serif;
+        font-weight: 700;
     }
 
     .card {
@@ -121,7 +146,8 @@ body {
         color: var(--pale-blue);
     }
 
-    #code-icon, #ballpen-icon, #shield-icon {
+    #code-icon, #ballpen-icon, #shield-icon, #network-icon, #ux-ux-icon,
+    #content-icon {
         font-size: 40px;
         color: white;
     }
@@ -164,6 +190,7 @@ body {
 #about-h1 {
     text-align: center;
     font-family: sans-serif;
+    font-weight: 700;
 }
 
 #p-about {
@@ -182,9 +209,11 @@ body {
     font-family: sans-serif;
 }
 
-#fb-icon, #linkedin-icon {
+#fb-icon, #linkedin-icon, #ig-icon,
+#tt-icon, #th-icon, #gh-icon {
     color: var(--pale-blue);
 }
+
 
 /* ol goods */
 
@@ -199,17 +228,11 @@ body {
         background-color: var(--light-blue)
     }
     
-    * {
-        margin-right: 0% !important;
-    }
+
+
+    /* ports */
 
     /* certs */
-    .carousel-control-prev,  .carousel-control-next {
-       margin-left: 10px;
-       margin-top: 40px;
-       margin-right: 10px;
-    }
-
 
 
     /* service */
@@ -221,11 +244,17 @@ body {
     .text-right {
         text-align: center !important;
     }
+    #CV {
+        text-align: center !important;
+    }
 
-    /* foorter */
     #p-about {
         margin-top: 0;
         text-align: center;
     } 
+    .ftr {
+        text-align: center;
+
+    }
     
   }
